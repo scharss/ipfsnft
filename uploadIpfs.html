@@ -10,7 +10,7 @@
   import { NFTStorage } from 'https://cdn.jsdelivr.net/npm/nft.storage/dist/bundle.esm.min.js'
 
   const token =
-    new URLSearchParams(window.location.search).get('key') || 'API KEY' // your API key from https://nft.storage/manage
+    new URLSearchParams(window.location.search).get('key') || 'API KEY' // your API key 
   function log(msg) {
     msg = JSON.stringify(msg, null, 2)
     document.getElementById('out').innerHTML += `${msg}\n`
